@@ -8,5 +8,5 @@ export default function App() {
 
   const Routes = createRouter(signed);
 
-  return <Routes />
+  return <Routes />;
 }
