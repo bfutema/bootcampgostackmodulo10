@@ -26,6 +26,7 @@ export default function SignIn({ navigation }) {
   const loading = useSelector(state => state.auth.loading);
 
   function handleSubmit() {
+    console.tron.log(email, password);
     dispatch(signInRequest(email, password));
   }
 
